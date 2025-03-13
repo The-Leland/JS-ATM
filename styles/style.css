@@ -1,0 +1,151 @@
+
+
+
+.hidden {
+    display: none;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.deposit {
+    color: green;
+}
+
+.withdraw {
+    color: red;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Login Section */
+  #login-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(191, 131, 131, 0.1);
+    width: 300px;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #218838;
+  }
+  
+  #atm-menu {
+    margin-top: 20px;
+  }
+  
+  #balance-display {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #deposit-section,
+  #withdraw-section {
+    background: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+  }
+  
+  .deposit {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .withdraw {
+    color: red;
+    font-weight: bold;
+  }
+  
+  #deposit-section input,
+  #withdraw-section input {
+    width: 100%;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Transaction History */
+  #transaction-history {
+    background: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+  }
+  
+  #transaction-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #transaction-list li {
+    background: #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  /* Receipt Section */
+  #receipt-section {
+    background: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+  }
